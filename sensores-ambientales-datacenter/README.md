@@ -20,15 +20,4 @@ Este proyecto dispone de los archivos correspondientes para su implementación.
 - Gráficos.
 - Base de Datos en Mongo.
 - Librerias para MQTT.
-
-### Colaboradores
-* Diseño, programación del backend, frontend y montado de dipositivos:
-    * Daniel Jimenez Jerez <djimenez@adsib.gob.bo>
-    
-* Documentación del montaje de dispositivos
-    * Cristian Zurita <czurita@adsib.gob.bo>
-    
-* Manual de instalación del software
-    * Jhonny Monrroy <jmonrroy@adsib.gob.bo>
-
 **Nota.-** Para la instalación del software que monitoriza los sensores ambientales consulte el documento  [INSTALL.md](INSTALL.md "Manual de Instalación")
