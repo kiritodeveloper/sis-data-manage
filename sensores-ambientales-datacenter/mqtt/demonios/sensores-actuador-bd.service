@@ -1,0 +1,10 @@
+[Unit]
+Description=Enlace Actuadores - Base de Datos
+After=sensores-mosca.service
+
+[Service]
+ExecStart=/usr/bin/node /root/sensores-ambientales-datacenter/mqtt/suscriptores/subActuadorBD.js
+
+[Install]
+WantedBy=multi-user.target
+

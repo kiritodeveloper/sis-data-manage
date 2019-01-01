@@ -1,0 +1,10 @@
+[Unit]
+Description=Servicio de busqueda de actuadores
+After=sensores-gpio.service
+
+[Service]
+ExecStart=/usr/bin/node /root/sensores-ambientales-datacenter/mqtt/suscriptores/subActuador.js
+
+[Install]
+WantedBy=multi-user.target
+

@@ -1,0 +1,14 @@
+{
+  "name": "login",
+  "dependencies": {
+    "angular": "latest",
+    "angular-jwt": "latest",
+    "angular-route": "latest",
+    "bootstrap": "latest",
+    "bootstrap-material-design": "latest",
+    "jquery": "latest",
+    "socket.io": "latest",
+    "justgage-official": "latest",
+    "raphael": "latest"
+  }
+}

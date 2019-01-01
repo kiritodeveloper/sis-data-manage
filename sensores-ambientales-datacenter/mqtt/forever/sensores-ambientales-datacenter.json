@@ -1,0 +1,58 @@
+[
+  {
+    "uid": "ServidorMosca",
+    "append": true,
+    "watch": true,
+    "script": "subMosca.js",
+    "sourceDir": "/home/jmonrroy/desarrollo/sensores-ambientales-datacenter/mqtt/suscriptores"
+  },
+  {
+    "uid": "SensorBD",
+    "append": true,
+    "watch": true,
+    "script": "subSensorBD.js",
+    "sourceDir": "/home/jmonrroy/desarrollo/sensores-ambientales-datacenter/mqtt/suscriptores"
+  },
+  {
+    "uid": "ActuadorBD",
+    "append": true,
+    "watch": true,
+    "script": "subActuadorBD.js",
+    "sourceDir": "/home/jmonrroy/desarrollo/sensores-ambientales-datacenter/mqtt/suscriptores"
+  },
+  {
+    "uid": "DisparadorTemperatura",
+    "append": true,
+    "watch": true,
+    "script": "subDisparadorTemperatura.js",
+    "sourceDir": "/home/jmonrroy/desarrollo/sensores-ambientales-datacenter/mqtt/suscriptores"
+  },
+  {
+    "uid": "DisparadorHumedad",
+    "append": true,
+    "watch": true,
+    "script": "subDisparadorHumedad.js",
+    "sourceDir": "/home/jmonrroy/desarrollo/sensores-ambientales-datacenter/mqtt/suscriptores"
+  },
+  {
+    "uid": "DisparadorHumo",
+    "append": true,
+    "watch": true,
+    "script": "subDisparadorHumo.js",
+    "sourceDir": "/home/jmonrroy/desarrollo/sensores-ambientales-datacenter/mqtt/suscriptores"
+  },
+  {
+    "uid": "Actuador",
+    "append": true,
+    "watch": true,
+    "script": "subActuador.js",
+    "sourceDir": "/home/jmonrroy/desarrollo/sensores-ambientales-datacenter/mqtt/suscriptores"
+  },
+  {
+    "uid": "GPIO",
+    "append": true,
+    "watch": true,
+    "script": "subGpio.js",
+    "sourceDir": "/home/jmonrroy/desarrollo/sensores-ambientales-datacenter/mqtt/suscriptores"
+  }
+]

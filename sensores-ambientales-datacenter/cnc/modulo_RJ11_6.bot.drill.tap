@@ -1,0 +1,119 @@
+(.../administrador/eagle/pcb-gcode/pcb-gcode.ulp)
+(Copyright 2005 - 2012 by John Johnson)
+(See readme.txt for licensing terms.)
+(This file generated from the board:)
+(.../administrador/eagle/modulo_RJ11_new.brd)
+(Current profile is .../eagle/pcb-gcode/profiles/emc.pp  )
+(This file generated 16/09/15 09:51)
+(Settings from pcb-machine.h)
+(  Tool Size)
+(0.1397 )
+(Z Axis Settings)
+(  High     Up        Down     Drill)
+(12.7000 	2.5400 	-0.2000 	-2.0000 )
+(spindle on time = 3.0000)
+(milling depth = -0.2540)
+(text depth = -0.1270)
+(tool change at 0.0000 0.0000 0.0000 )
+(feed rate xy = F300.00 )
+(feed rate z  = F180.00 )
+(Settings from pcb-defaults.h)
+(isolate min = 0.0578)
+(isolate max = 0.3556)
+(isolate step = 0.1270)
+(Generated bottom outlines, bottom drill, )
+(Unit of measure: mm)
+( Tool|       Size       |  Min Sub |  Max Sub |   Count )
+( T01 | 0.500mm 0.0197in | 0.0000in | 0.0000in |       0 )
+( T02 | 1.016mm 0.0400in | 0.0000in | 0.0000in |       0 )
+( T03 | 2.200mm 0.0866in | 0.0000in | 0.0000in |       0 )
+( T04 | 2.360mm 0.0929in | 0.0000in | 0.0000in |       0 )
+(Metric Mode)
+G21
+(Absolute Coordinates)
+G90
+M05
+G00 Z0.0000 
+G00 X0.0000 Y0.0000 
+M06 T01 (0.5000 )
+G01 Z0.0000 F180.00 
+M06 T01 (0.5000 )
+G00 Z2.5400 
+M03
+G04 P3.000000
+G82 X-37.8300 Y27.5450 Z-2.0000 F180.00 R2.5400 P1.000000
+G82 X-38.8700 Y25.0050 
+G82 X-39.8700 Y27.5450 
+G82 X-40.9100 Y25.0050 
+G82 X-53.0700 Y27.5450 
+G82 X-54.1100 Y25.0050 
+G82 X-55.1100 Y27.5450 
+G82 X-56.1500 Y25.0050 
+G82 X-68.3100 Y27.5450 
+G82 X-69.3500 Y25.0050 
+G82 X-70.3500 Y27.5450 
+G82 X-71.3900 Y25.0050 
+G82 X-7.3500 Y27.5450 
+G82 X-83.5500 Y27.5450 
+G82 X-8.3900 Y25.0050 
+G82 X-84.5900 Y25.0050 
+G82 X-85.5900 Y27.5450 
+G82 X-86.6300 Y25.0050 
+G82 X-9.3900 Y27.5450 
+G82 X-10.4300 Y25.0050 
+G82 X-22.5900 Y27.5450 
+G82 X-23.6300 Y25.0050 
+G82 X-24.6300 Y27.5450 
+G82 X-25.6700 Y25.0050 
+M05
+G00 Z0.0000 
+M06 T02 (1.0160 )
+G01 Z0.0000 F180.00 
+M06 T02 (1.0160 )
+G00 Z2.5400 
+M03
+G04 P3.000000
+G82 X-33.0200 Y5.0800 Z-2.0000 F180.00 R2.5400 P1.000000
+G82 X-35.5600 Y5.0800 
+G82 X-38.1000 Y5.0800 
+G82 X-40.6400 Y5.0800 
+G82 X-43.1800 Y5.0800 
+G82 X-45.7200 Y5.0800 
+G82 X-27.9400 Y5.0800 
+G82 X-30.4800 Y5.0800 
+M05
+G00 Z0.0000 
+M06 T03 (2.2000 )
+G01 Z0.0000 F180.00 
+M06 T03 (2.2000 )
+G00 Z2.5400 
+M03
+G04 P3.000000
+G82 X-3.8100 Y4.4450 Z-2.0000 F180.00 R2.5400 P1.000000
+G82 X-3.8100 Y18.4150 
+G82 X-90.1700 Y4.4450 
+G82 X-90.1700 Y18.4150 
+M05
+G00 Z0.0000 
+M06 T04 (2.3600 )
+G01 Z0.0000 F180.00 
+M06 T04 (2.3600 )
+G00 Z2.5400 
+M03
+G04 P3.000000
+G82 X-33.3700 Y29.8450 Z-2.0000 F180.00 R2.5400 P1.000000
+G82 X-45.3700 Y29.8450 
+G82 X-48.6100 Y29.8450 
+G82 X-60.6100 Y29.8450 
+G82 X-63.8500 Y29.8450 
+G82 X-75.8500 Y29.8450 
+G82 X-79.0900 Y29.8450 
+G82 X-91.0900 Y29.8450 
+G82 X-14.8900 Y29.8450 
+G82 X-18.1300 Y29.8450 
+G82 X-2.8900 Y29.8450 
+G82 X-30.1300 Y29.8450 
+T01 
+G00 Z12.7000 
+M05
+M02

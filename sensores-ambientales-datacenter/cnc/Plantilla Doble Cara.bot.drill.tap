@@ -1,0 +1,48 @@
+(.../administrador/eagle/pcb-gcode/pcb-gcode.ulp)
+(Copyright 2005 - 2012 by John Johnson)
+(See readme.txt for licensing terms.)
+(This file generated from the board:)
+(.../administrador/eagle/Arduino_drill_pos.brd)
+(Current profile is .../eagle/pcb-gcode/profiles/emc.pp  )
+(This file generated 18/09/15 09:04)
+(Settings from pcb-machine.h)
+(  Tool Size)
+(0.1270 )
+(Z Axis Settings)
+(  High     Up        Down     Drill)
+(12.7000 	5.0000 	-0.1500 	-2.0000 )
+(spindle on time = 3.0000)
+(milling depth = -0.2540)
+(text depth = -0.1270)
+(tool change at 0.0000 0.0000 0.0000 )
+(feed rate xy = F200.00 )
+(feed rate z  = F250.00 )
+(Settings from pcb-defaults.h)
+(isolate min = 0.0578)
+(isolate max = 0.3556)
+(isolate step = 0.1270)
+(Generated bottom drill, )
+(Unit of measure: mm)
+( Tool|       Size       |  Min Sub |  Max Sub |   Count )
+( T01 | 3.200mm 0.1260in | 0.0000in | 0.0000in |       0 )
+(Metric Mode)
+G21
+(Absolute Coordinates)
+G90
+M05
+G00 Z0.0000 
+G00 X0.0000 Y0.0000 
+M06 T01 (3.2000 )
+G01 Z0.0000 F250.00 
+M06 T01 (3.2000 )
+G00 Z5.0000 
+M03
+G04 P3.000000
+G82 X-69.8500 Y43.1800 Z-2.0000 F250.00 R5.0000 P1.000000
+G82 X-69.8500 Y2.5400 
+G82 X-2.5400 Y43.1800 
+G82 X-2.5400 Y2.5400 
+T01 
+G00 Z12.7000 
+M05
+M02

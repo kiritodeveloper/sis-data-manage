@@ -1,0 +1,71 @@
+#chart1 {
+	display: inline-block;
+}
+#chart1 path {
+	-webkit-transition: opacity 0.2s linear;
+}
+#chart1 {
+	border: 1px solid #f0f0f0;
+}
+
+#legend1 {
+	display: inline-block;
+	position: relative;
+	left: 8px;
+}
+#legend1 {
+	background-color: white;
+	margin-left: 0;
+	padding: 0;
+	left: 0;
+}
+#legend1 .label {
+	color: #404040;
+}
+#legend1 .action {
+	color: black;
+	opacity: 0.5;
+}
+#legend1 ul {
+	padding: 0;
+}
+
+#preview1 {
+	margin-top: 10px;
+}
+
+#side_panel_A {
+	padding: 0 20px 20px 0;
+	width: 240px;
+	display: inline-block;
+	vertical-align: top;
+}
+#side_panel_A section {
+	color: #505050;
+	font-size: 12px;
+}
+#side_panel_A section h6 {
+	margin: 0 0 1em 0;
+	font-size: 12px;
+	font-weight: normal;
+}
+#side_panel_A .ui-slider-horizontal {
+	height: 1px !important;
+	border-color: #e0e0e0;
+	margin-bottom: 10px;
+}
+#side_panel_A .ui-slider-handle {
+	border-color: #a0a0a0;
+	height: 9px !important;
+	width: 9px !important;
+	top: -5px !important;
+	border-radius: 6px;
+	outline: none;
+	cursor: pointer;
+}
+
+#chart_container_A {
+	position: relative;
+	display: inline-block;
+}
+

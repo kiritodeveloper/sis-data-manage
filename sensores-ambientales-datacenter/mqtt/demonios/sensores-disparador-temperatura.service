@@ -1,0 +1,10 @@
+[Unit]
+Description=Servicio de deteccion de limites de Temperatura
+After=sensores-actuador.service
+
+[Service]
+ExecStart=/usr/bin/node /root/sensores-ambientales-datacenter/mqtt/suscriptores/subDisparadorTemperatura.js
+
+[Install]
+WantedBy=multi-user.target
+

@@ -1,0 +1,29 @@
+*.log
+
+node_modules
+node_modules/
+node_modules/*
+node_modules/**
+node_modules/***
+
+*/node_modules
+**/node_modules/
+***/node_modules/
+*/*/node_modules/
+*/*/*/node_modules/
+/graficos/mongo/funcionesParaMongo/
+/graficos/mongo/datos/
+/graficos/ejecutarMongo.js
+/graficos/ejecutarActuadores.js
+/graficos/ejecutarSensores.js
+<<<<<<< HEAD
+/graficos/borrar.cada2mins.js
+/graficos/borrar.cadaXmins.js
+=======
+
+/frontend/public/lib
+/frontend/public/lib/*
+/frontend/node_modules
+/frontend/node_modules/*
+
+>>>>>>> de3b6f871701a70865a904241f3ae6c6144a1ed3

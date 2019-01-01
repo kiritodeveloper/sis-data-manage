@@ -1,0 +1,36 @@
+{
+  "name": "mqtt",
+  "version": "1.0.0",
+  "description": "Servidor mosca para el control ambiental del datacenter",
+  "main": "mosca.js",
+  "scripts": {
+    "test": "node mosca.js"
+  },
+  "dependencies": {
+    "gpio": "latest",
+    "moment": "^2.10.6",
+    "mongodb": "latest",
+    "mongojs": "latest",
+    "mosca": "latest",
+    "mqtt": "latest",
+    "sendmail": "^0.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.geo.gob.bo:djimenez/sensores-ambientales-datacenter.git"
+  },
+  "keywords": [
+    "sensores",
+    "datacenter",
+    "temperatura",
+    "humedad",
+    "humo",
+    "dht22",
+    "mqt2",
+    "arduino",
+    "raspberry",
+    "mqtt"
+  ],
+  "author": "ADSIB",
+  "license": "GPL-3.0"
+}

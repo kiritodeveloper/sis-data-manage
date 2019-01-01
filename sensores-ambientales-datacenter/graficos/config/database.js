@@ -1,0 +1,8 @@
+// the database url to connect
+// url : 'mongodb://node:node@mongo.onmodulus.net:27017/uwO3mypu'
+
+//Local MongoDB
+//url : 'mongodb://localhost/test'	
+//	url : 'mongodb://localhost/userAccountJWT',
+
+exports.mongoJsDB = 'sensores_control_ambiental_datacenter';

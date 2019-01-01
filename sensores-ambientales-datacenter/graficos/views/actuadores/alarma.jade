@@ -1,0 +1,12 @@
+doctype html 
+html(lang='es', ng-app="myapp")
+   head
+      meta(charset="UTF-8")
+      title Gráficas 
+      link(rel="stylesheet", href="../css/css-rickshaw.css")
+      include ../rickshaw/rickshaw-head.jade
+   body(style = "cursor: auto;",ng-controller="controlador1")
+      include ../rickshaw/rickshaw-body-actuador.jade
+      include ../rickshaw/rickshaw-body-script.jade
+      script(src="../js/cliente.actuador.tiempoReal.js")
+      script(src="../js/cliente.actuador.alarma.js")

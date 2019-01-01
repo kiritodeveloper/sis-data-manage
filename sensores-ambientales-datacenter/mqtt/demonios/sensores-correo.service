@@ -1,0 +1,10 @@
+[Unit]
+Description=Servicio de envio de correos email
+After=sensores-mosca.service
+
+[Service]
+ExecStart=/usr/bin/node /root/sensores-ambientales-datacenter/mqtt/suscriptores/subCorreo.js
+
+[Install]
+WantedBy=multi-user.target
+

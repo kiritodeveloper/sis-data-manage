@@ -1,0 +1,9 @@
+[Unit]
+Description=Servidor MQTT Mosca
+After=mongodb.service
+
+[Service]
+ExecStart=/usr/bin/node /root/sensores-ambientales-datacenter/mqtt/suscriptores/subMosca.js
+
+[Install]
+WantedBy=multi-user.target

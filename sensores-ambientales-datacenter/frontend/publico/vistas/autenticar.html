@@ -1,0 +1,19 @@
+<div class="container jumbotron form-group col-md-4 col-md-offset-4">
+  <h2>Monitoreo Datacenter</h2>
+  <div ng-if="msg" class="alert alert-danger" role="alert">
+    <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+    <span class="sr-only">Error:</span>
+    {{msg}}
+  </div>
+  <form ng-submit="autenticar(usuario)">
+    <input class="form-control floating-label" placeholder="Usuario" type="text" ng-model="usuario.usuario">
+    <input class="form-control floating-label" placeholder="Contraseña" type="password" ng-model="usuario.clave">
+    <button class="btn btn-primary btn-flat" id="btnIngresar">Ingresar</button>
+  </form>
+</div>
+
+<script>
+  $(document).ready(function() {
+    $.material.init();
+  });
+</script>

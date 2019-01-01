@@ -1,0 +1,10 @@
+[Unit]
+Description=Servidor de bases de datos no relacionales Mongo
+After=network.target
+
+[Service]
+ExecStartPre=/usr/bin/rm /var/lib/mongodb/data/mongod.lock
+ExecStart=/usr/bin/mongod --dbpath /var/lib/mongodb/data
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,11 @@
+load("../constantes.js");
+load("../conexion.js");
+load("perfil.js");
+load("raspberry.js");
+load("actuador.js");
+load("arduino.js");
+load("sensor.js");
+load("historial_raspberry.js");
+load("historial_actuador.js");
+load("historial_arduino.js");
+load("historial_sensor.js");

@@ -1,0 +1,10 @@
+[Unit]
+Description=Servicio de activacion y desactivacion de pines GPIO
+After=sensores-actuador-bd.service
+
+[Service]
+ExecStart=/usr/bin/node /root/sensores-ambientales-datacenter/mqtt/suscriptores/subGpio.js
+
+[Install]
+WantedBy=multi-user.target
+

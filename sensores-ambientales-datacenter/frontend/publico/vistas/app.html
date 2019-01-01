@@ -1,0 +1,61 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="" ng-click="salir()">
+        Cerrar Sesión
+      </a>
+    </div>
+  </div>
+</nav>
+
+<div class="container jumbotron">
+  <h2>Temperatura</h2>
+  <div class="row col-md-6">
+    <div id="DHT22_AC02_FD21" class="200x160px"></div>
+    <div id="DHT22_AC02_FD05" class="200x160px"></div>
+  </div>
+  <div class="row col-md-6">
+    <div id="DHT22_AC03_FD21" class="200x160px"></div>
+    <div id="DHT22_AC03_FD05" class="200x160px"></div>
+  </div>
+</div>
+
+<div class="container jumbotron">
+  <h2>Actuadores</h2>
+  <div class="togglebutton">
+    <label class="txtActuador col-md-12">
+      <span class="col-md-4">
+        <i id='ACO_BA03_01.icono'></i>
+        Aire Acondicionado Superior
+      </span>
+      <input id="ACO_BA03_01" type="checkbox" disabled=""/>
+      <span class="txtActuadorFecha" id="ACO_BA03_01.fecha"></span>
+    </label>
+  </div>
+  <div class="togglebutton">
+    <label class="txtActuador col-md-12">
+      <span class="col-md-4">
+        <i id='ACO_BA03_02.icono' class=""></i>
+        Aire Acondicionado Inferior
+      </span>
+      <input id="ACO_BA03_02" type="checkbox" disabled=""/>
+      <span class="txtActuadorFecha" id="ACO_BA03_02.fecha"></span>
+    </label>
+  </div>
+  <div class="togglebutton">
+    <label class="txtActuador col-md-12">
+      <span class="col-md-4">
+        <i id='EXT_AF05_01.icono'></i>
+        Extractor
+      </span>
+      <input id="EXT_AF05_01" type="checkbox" disabled=""/>
+      <span class="txtActuadorFecha" id="EXT_AF05_01.fecha"></span>
+    </label>
+  </div>
+</div>
+
+<script>
+  $(document).ready(function() {
+    $.material.init();
+  });
+</script>
