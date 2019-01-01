@@ -18,7 +18,7 @@ sudo apt-get install -y build-essential
 Clonar la aplicación del repositorio de GitLab
 
 ```sh
-git clone https://github.com/kiritodeveloper/sis-data-manage/tree/master/sensores-ambientales-datacenter
+git clone https://github.com/kiritodeveloper/sis-data-manage/
 
 ```
 **Nota.-** Si obtiene el mensaje: *"serve certificate verification failed"*, introducir el siguiente comando:
@@ -30,7 +30,7 @@ git config --global http.sslverify false
 Ingresar a la carpeta del codigo fuente en especifico a la carpeta **mqtt**
 
 ```sh
-cd sensores-ambientales-datacenter
+cd sis-data-manage
 cd mqtt
 ```
 
@@ -114,10 +114,10 @@ Configurar las aplicaciones segun la carpeta en donde se encuentre instalado el 
 ```sh
 pwd
 ```
-Prestar atención en la ruta que se muestra, sera algo parecido a: */home/jaimito/sensores-ambientales-datacenter* este sera utilizado para el archivo de configuración del **forever**
-Editar el archivo *sensores-ambientales-datacenter.json*
+Prestar atención en la ruta que se muestra, sera algo parecido a: */home/jaimito/sis-data-manage* este sera utilizado para el archivo de configuración del **forever**
+Editar el archivo *sis-data-manage.json*
 ```sh
-nano forever/sensores-ambientales-datacenter.json
+nano forever/sis-data-manage.json
 ```
 Cambiar el **souceDir** de todos los parametros segun corresponda
 ```json
@@ -127,63 +127,63 @@ Cambiar el **souceDir** de todos los parametros segun corresponda
     "append": true,
     "watch": true,
     "script": "subMosca.js",
-    "sourceDir": "/home/jaimito/sensores-ambientales-datacenter/mqtt/suscriptores"
+    "sourceDir": "/home/jaimito/sis-data-manage/mqtt/suscriptores"
   },
   {
     "uid": "SensorBD",
     "append": true,
     "watch": true,
     "script": "subSensorBD.js",
-    "sourceDir": "/home/jaimito/sensores-ambientales-datacenter/mqtt/suscriptores"
+    "sourceDir": "/home/jaimito/sis-data-manage/mqtt/suscriptores"
   },
   {
     "uid": "ActuadorBD",
     "append": true,
     "watch": true,
     "script": "subActuadorBD.js",
-    "sourceDir": "/home/jaimito/sensores-ambientales-datacenter/mqtt/suscriptores"
+    "sourceDir": "/home/jaimito/sis-data-manage/mqtt/suscriptores"
   },
   {
     "uid": "DisparadorTemperatura",
     "append": true,
     "watch": true,
     "script": "subDisparadorTemperatura.js",
-    "sourceDir": "/home/jaimito/sensores-ambientales-datacenter/mqtt/suscriptores"
+    "sourceDir": "/home/jaimito/sis-data-manage/mqtt/suscriptores"
   },
   {
     "uid": "DisparadorHumedad",
     "append": true,
     "watch": true,
     "script": "subDisparadorHumedad.js",
-    "sourceDir": "/home/jaimito/sensores-ambientales-datacenter/mqtt/suscriptores"
+    "sourceDir": "/home/jaimito/sis-data-manage/mqtt/suscriptores"
   },
   {
     "uid": "DisparadorHumo",
     "append": true,
     "watch": true,
     "script": "subDisparadorHumo.js",
-    "sourceDir": "/home/jaimito/sensores-ambientales-datacenter/mqtt/suscriptores"
+    "sourceDir": "/home/jaimito/sis-data-manage/mqtt/suscriptores"
   },
   {
     "uid": "Actuador",
     "append": true,
     "watch": true,
     "script": "subActuador.js",
-    "sourceDir": "/home/jaimito/sensores-ambientales-datacenter/mqtt/suscriptores"
+    "sourceDir": "/home/jaimito/sis-data-manage/mqtt/suscriptores"
   },
   {
     "uid": "GPIO",
     "append": true,
     "watch": true,
     "script": "subGpio.js",
-    "sourceDir": "/home/jaimito/sensores-ambientales-datacenter/mqtt/suscriptores"
+    "sourceDir": "/home/jaimito/sis-data-manage/mqtt/suscriptores"
   }
 ]
 ```
 Ejecutar todos los scripts con forever
 ```sh
 sudo npm install forever -g
-forever start forever/sensores-ambientales-datacenter.json
+forever start forever/sis-data-manage.json
 ```
 Si todo salio correctamente los servicios ya fueron levantados y pueden ser probados con el frontend
 

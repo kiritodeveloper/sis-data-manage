@@ -16,7 +16,7 @@ sudo apt-get install -y build-essential
 Clonar la aplicación del repositorio de GitLab
 
 ```sh
-git clone https://github.com/kiritodeveloper/sis-data-manage/tree/master/sensores-ambientales-datacenter/frontend
+git clone https://github.com/kiritodeveloper/sis-data-manage/tree/master/sis-data-manage/frontend
 
 ```
 **Nota.-** Si obtiene el mensaje: *"serve certificate verification failed"*, introducir el siguiente comando:
@@ -28,7 +28,7 @@ git config  --global http.sslverify false
 Ingresar a la carpeta del codigo fuente en especifico a la carpeta frontend
 
 ```sh
-cd sensores-ambientales-datacenter
+cd sis-data-manage
 cd frontend
 ```
 Configurar la IP donde esta instalado el servidor
@@ -97,7 +97,7 @@ Ejemplo de contenido del archivo *frontend-sensores.conf*. Se Debe cambiar los n
 
 ```sh
 [program:run-frontend-sensores]
-directory=/home/jaimito/desarrollo/sensores-ambientales-datacenter/frontend
+directory=/home/jaimito/desarrollo/sis-data-manage/frontend
 command=node app.js
 autostart=true
 autorestart=true
