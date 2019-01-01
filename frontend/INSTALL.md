@@ -16,7 +16,7 @@ sudo apt-get install -y build-essential
 Clonar la aplicación del repositorio de GitLab
 
 ```sh
-git clone https://github.com/kiritodeveloper/sis-data-manage/tree/master/sis-data-manage/frontend
+git clone https://github.com/kiritodeveloper/sis-data-manage/frontend
 
 ```
 **Nota.-** Si obtiene el mensaje: *"serve certificate verification failed"*, introducir el siguiente comando:
